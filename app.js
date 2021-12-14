@@ -33,11 +33,11 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(cors());
 // Access-Control-Allow-Origin
 // api.natours.com, natours.com
-app.use(
-    cors({
-        origin: 'https://natours-app-stef.herokuapp.com/',
-    })
-);
+// app.use(
+//     cors({
+//         origin: 'https://natours-app-stef.herokuapp.com/',
+//     })
+// );
 
 app.options('*', cors());
 // app.options('/api/v1/tours/:id', cors());
